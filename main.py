@@ -11,6 +11,19 @@ def total_Expenses(expenses):
 def filter_expenses(expenses,category):
     return filter(lambda expense: expense['category'] == category,expenses)
 
+"""
+    Expense Tracker
+    This script allows the user to track their expenses by adding, listing, 
+    calculating the total, and filtering expenses by category.
+    Functions:
+        Adds an expense to the expenses list.
+        Prints all expenses in the expenses list.
+        total_Expenses(expenses)
+        Returns the total amount of all expenses.
+        filter_expenses(expenses, category)
+        Filters and returns expenses by the specified category.
+        The main function that runs the expense tracker program.
+"""
 
 def main():
     expenses = []
